@@ -62,19 +62,30 @@ https://user-images.githubusercontent.com/121161133/209746625-c5fdf05c-2e17-462d
 ![2](https://user-images.githubusercontent.com/121161133/209558523-190af012-f44d-46e8-9f22-75393b5ab5d9.png)
 
        2. Install library sensor DHT 11 melalui Sketch > Include Library > Manage Libraries. Ketikkan DHT pada kolom pencarian, pilih library yang akan diinstall seperti pada Gambar berikut ini. Kemudian install juga Adafruit Unified Sensor menggunakan cara yang sama.
-       3. Buatlah program seperti pada script di file ToWayCom1.ino untuk mengakses sensor DHT11. Kemudian upload program tersebut pada ESP32 dan hasilnya akan seperti video di bawah ini
-       4. Buatlah program seperti pada file ToWayCom1.ino agar ketika suhu rungan mencapai 30 derajat celcius, maka ESP32 akan menyalakan LED Merah dan buzzer secara beep (blink). Apabila suhu dibawah 30 derajat, ESP32 akan mematikan buzzer dan menyalakan LED berbentuk running LED seperti pada Percobaan A. Hasilnya akan seperti pada video berikut 
+       3. Buatlah program seperti pada script di file ToWayCom1.ino untuk mengakses sensor DHT11. Kemudian upload program tersebut pada ESP32 dan hasilnya akan seperti video Sensor DHT 11_1 di bawah ini
+
+
+https://user-images.githubusercontent.com/121161133/209752099-288c155f-99fd-4b9c-9ada-bec3bd7dff2f.mp4
+
+
+       4. Buatlah program seperti pada file ToWayCom1.ino agar ketika suhu rungan mencapai 30 derajat celcius, maka ESP32 akan menyalakan LED Merah dan buzzer secara beep (blink). Apabila suhu dibawah 30 derajat, ESP32 akan mematikan buzzer dan menyalakan LED berbentuk running LED seperti pada Percobaan A. Hasilnya akan seperti pada video Sensor DHT 11_2 berikut ini
+
+
+https://user-images.githubusercontent.com/121161133/209752089-7b9c874e-6c30-47fc-85a5-775b9ecb1066.mp4
+
 
      C. Mengakses Sensor RFID (SPI Communication) 
         1. Buatlah rangkaian seperti pada gambar 3 di bawah ini
 ![3](https://user-images.githubusercontent.com/121161133/209558486-8c43990d-9380-4491-b552-0a993fdd5d9a.png)
 
         2. Install Library MFRC522 dari Library Manager. 
-        3. Kemudian buatlah program seperti pada script RFID1.ino
+        3. Kemudian buatlah program seperti pada script SensorRFID_1.ino
         4. Dekatkan kartu atau Tag RFID ke RFID Reader. Amati dan analisis cara kerja programnya. 
-        5. Buatlah program agar Tag RFID yang terbaca sebelumya dapat digunakan untuk hak akses. Apabila Tag RFID didekatkan pada Reader, maka LED Hijau akan menyala, servo akan bergerak ke kanan (lalu kembali ke posisi semula setelah 3 detik) dan di Serial Monitor akan tertampil pesan “Akses Diterima, Silahkan Masuk”. Apabila Tag RFID tidak dikenali, maka LED Merah akan menyala, servo tidak bergerak dan di Serial Monitor akan tertampil pesan “Akses Ditolak”. Gunakan Tag RFID lain untuk mencoba.
-Hasilnya akan seperti pada video RFID berikut ini
+        5. Buatlah program seperti pada script SensorRFID_2.ino agar Tag RFID yang terbaca sebelumya dapat digunakan untuk hak akses. Apabila Tag RFID didekatkan pada Reader, maka LED Hijau akan menyala, servo akan bergerak ke kanan (lalu kembali ke posisi semula setelah 3 detik) dan di Serial Monitor akan tertampil pesan “Akses Diterima, Silahkan Masuk”. Apabila Tag RFID tidak dikenali, maka LED Merah akan menyala, servo tidak bergerak dan di Serial Monitor akan tertampil pesan “Akses Ditolak”. Gunakan Tag RFID lain untuk mencoba.
+Hasilnya akan seperti pada video Sensor RFID berikut ini
 
 
-https://user-images.githubusercontent.com/121161133/209746828-6039adea-d96f-437a-a03b-c3af59413bcc.mp4
+https://user-images.githubusercontent.com/121161133/209752147-6a8d51b7-6a0c-4dc8-84f7-0c30aab77925.mp4
+
+
 
