@@ -62,6 +62,8 @@ https://user-images.githubusercontent.com/121161133/209746625-c5fdf05c-2e17-462d
 ![2](https://user-images.githubusercontent.com/121161133/209558523-190af012-f44d-46e8-9f22-75393b5ab5d9.png)
 
        2. Install library sensor DHT 11 melalui Sketch > Include Library > Manage Libraries. Ketikkan DHT pada kolom pencarian, pilih library yang akan diinstall seperti pada Gambar berikut ini. Kemudian install juga Adafruit Unified Sensor menggunakan cara yang sama.
+![Screenshot](https://user-images.githubusercontent.com/121161133/209752602-c4f6fb77-2a60-4f8d-8fe1-3e4f099efc72.png)
+
        3. Buatlah program seperti pada script di file ToWayCom1.ino untuk mengakses sensor DHT11. Kemudian upload program tersebut pada ESP32 dan hasilnya akan seperti video Sensor DHT 11_1 di bawah ini
 
 
